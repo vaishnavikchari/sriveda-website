@@ -1,5 +1,6 @@
 import React from 'react';
 import {Helmet} from 'react-helmet';
+import servers2 from '../assets/images/servers2.webp';
 import Layout from '../components/layout';
 import Fade from 'react-reveal/Fade';
 
@@ -10,6 +11,7 @@ const Whyus = props => (
       <meta name="description" content="Elements Page" />
     </Helmet>
     <Fade left>
+      <div><img height="200" width="2000" src={servers2} alt="" /></div>
       <div id="main" className="wrapper style1 left inactive">
         <div className="container">
           <header className="major">
