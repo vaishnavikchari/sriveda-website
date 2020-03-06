@@ -11,7 +11,7 @@ const About = props => (
       <meta name="description" content="Elements Page" />
     </Helmet>
     <Fade up>
-      <div><img height="200" width="2000" src={servers4} alt="" /></div>
+      <div><img height="200" width="1500" src={servers4} alt="" /></div>
       <div id="main" className="wrapper style1 special fade-up">
         <div className="container">
           <header className="major">

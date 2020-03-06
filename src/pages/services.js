@@ -10,7 +10,7 @@ const Services = props => (
       <title>Sriveda - Services</title>
       <meta name="description" content="Elements Page" />
     </Helmet>
-    <div><img height="200" width="2000" src={servers3} alt="" /></div>
+    <div><img height="200" width="1500" src={servers3} alt="" /></div>
     <Four />
     <Five />
   </Layout>

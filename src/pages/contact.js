@@ -10,7 +10,7 @@ const Contact = props => (
       <title>Sriveda - Contact</title>
       <meta name="description" content="Elements Page" />
     </Helmet>
-    <div><img height="200" width="2000" src={servers1} alt="" /></div>
+    <div><img height="200" width="1500" src={servers1} alt="" /></div>
     <Six />
     <Five />
   </Layout>
