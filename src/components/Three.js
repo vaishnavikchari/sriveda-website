@@ -10,7 +10,7 @@ const Three = props => (
     style={{backgroundImage: `url(${pic04})`}}
   >
     <span className="image fit main bottom">
-      <img src={pic04} alt="" />
+      <img src={pic04} alt="sriveda-team" />
     </span>
     <Fade left big>
       <div className="content">

@@ -8,9 +8,11 @@ const Services = props => (
   <Layout>
     <Helmet>
       <title>Sriveda - Services</title>
-      <meta name="description" content="Elements Page" />
+      <meta name="description" content="services" />
     </Helmet>
-    <div><img height="200" width="1500" src={servers3} alt="" /></div>
+    <div>
+      <img height="200" width="1500" src={servers3} alt="sriveda-services" />
+    </div>
     <Four />
     <Five />
   </Layout>

@@ -11,7 +11,9 @@ const Whyus = props => (
       <meta name="description" content="Elements Page" />
     </Helmet>
     <Fade left>
-      <div><img height="200" width="1500" src={servers2} alt="" /></div>
+      <div>
+        <img height="200" width="1500" src={servers2} alt="sriveda-why-us" />
+      </div>
       <div id="main" className="wrapper style1 left inactive">
         <div className="container">
           <header className="major">

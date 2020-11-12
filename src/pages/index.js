@@ -16,7 +16,10 @@ class Home extends React.Component {
           title="Sriveda Technologies"
           meta={[
             {name: 'description', content: 'Sriveda Technologies'},
-            {name: 'keywords', content: 'sample, something'},
+            {
+              name: 'keywords',
+              content: 'servers, cloud, hardware, infrastructure',
+            },
           ]}
         />
         <Banner />

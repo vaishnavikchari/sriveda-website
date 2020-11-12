@@ -2,8 +2,8 @@ module.exports = {
   //pathPrefix: `/mygatsby`,
   siteMetadata: {
     title: 'Sriveda Technology Solutions',
-    author: 'vasrush',
-    description: 'Sriveda Technology Solutions',
+    author: 'Brahmilabs',
+    description: 'Sriveda Technology Solutions - company website',
     menuLinks: [
       {
         name: 'Home',
@@ -42,6 +42,14 @@ module.exports = {
         icon: 'src/assets/images/website-icon.png', // This path is relative to the root of the site.
       },
     },
+
+    {
+      resolve: `gatsby-plugin-canonical-urls`,
+      options: {
+        siteUrl: `http://www.srivedatech.com`,
+      },
+    },
+
     {
       resolve: 'gatsby-source-filesystem',
       options: {

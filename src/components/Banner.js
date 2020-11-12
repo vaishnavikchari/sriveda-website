@@ -6,9 +6,9 @@ const Banner = props => (
   <section id="banner">
     <div className="content">
       <header>
-        <h2>Infrastructure services and consulting</h2>
+        <h2>IT Infrastructure services and consulting</h2>
         <p>
-          We've built and scaled Infrastructure for 20 years...
+          We've built and scaled IT Infrastructure for 20 years...
         </p>
         <p>
           Our industry experience spans the entire cloud era!
